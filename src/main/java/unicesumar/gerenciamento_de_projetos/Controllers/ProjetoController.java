@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "projetos")
+@RequestMapping(path = "/projetos")
 public class ProjetoController {
 
     @Autowired
